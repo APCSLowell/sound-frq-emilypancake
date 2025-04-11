@@ -42,7 +42,7 @@ public class Sound
     /* to be implemented in part (b) */
     private int a = 0;
     private int j = 0;
-    while(j == ){
+    while(j == 0){
       if(samples[i] != 0){
         j = 1;
       }else{
