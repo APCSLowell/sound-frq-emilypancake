@@ -20,11 +20,11 @@ public class Sound
     for(int i = 0; i < samples.length;i++){
       if(samples[i] > limit){
         samples[i] = limit;
-        a++
+        a++;
       }
       if(samples[i] < -1 * limit){
         samples[i] = -1 * limit;
-        a++
+        a++;
       }
     return a;
   }
@@ -46,7 +46,7 @@ public class Sound
       if(samples[i] != 0){
         j = 1;
       }else{
-        a++
+        a++;
           }
     }
     int[] m = new int[samples.length -  a];
