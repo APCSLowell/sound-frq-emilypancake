@@ -26,8 +26,9 @@ public class Sound
         samples[i] = -1 * limit;
         a++;
       }
+    }
     return a;
-  }
+
   }
 
 
