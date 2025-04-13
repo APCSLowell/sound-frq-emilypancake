@@ -19,7 +19,7 @@ public class Tester {
       int result = temp.limitAmplitude(2000);
       //answer [40, 2000, 17, -2000, -17, -2000, 2000]
       String failMsg = "Failed - Input=" + temp.samples + ", Expected 3, Output = " + result;
-      assertEquals(3, actual, failMsg);
+      assertEquals(3, result, failMsg);
    }
 
    @Test
