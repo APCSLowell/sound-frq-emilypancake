@@ -26,6 +26,7 @@ public class Sound
         a++;
       }
     }
+    return a;
   }
 
 
