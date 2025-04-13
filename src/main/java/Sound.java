@@ -43,8 +43,8 @@ public class Sound
     /* to be implemented in part (b) */
     int a = 0;
     int j = 0;
-    while(j == 0){
-      if(samples[a] != 0 && a < samples.length){
+    while(j == 0 && a < samples.length){
+      if(samples[a] != 0){
         j++;
       }else{
         a++;
