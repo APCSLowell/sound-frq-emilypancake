@@ -26,8 +26,6 @@ public class Sound
         a++;
       }
     }
-    System.out.println(samples);
-    System.out.println(a);
     return a;
 
   }
