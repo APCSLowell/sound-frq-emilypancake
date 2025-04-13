@@ -22,8 +22,8 @@ public class Sound
         samples[i] = limit;
         a++;
       }
-      if(samples[i] < -1 * limit){
-        samples[i] = -1 * limit;
+      if(samples[i] < (-1 * limit)){
+        samples[i] = (-1 * limit);
         a++;
       }
     }
